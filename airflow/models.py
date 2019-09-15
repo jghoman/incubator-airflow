@@ -1228,7 +1228,7 @@ class TaskInstance(Base):
         settings.engine.dispose()
         if verbose:
             if mark_success:
-                msg = "Marking success for "
+                msg = "I am marking success for "
             else:
                 msg = "Executing "
             msg += "{self.task} on {self.execution_date}"
